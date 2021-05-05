@@ -1,6 +1,6 @@
 syntax = "proto3";
 package hashicorp.nomad.plugins.drivers.proto;
-option go_package = "main";
+option go_package = "github.com/tgross/bufbreaks;main";
 
 import "google/protobuf/timestamp.proto";
 

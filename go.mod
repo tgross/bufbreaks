@@ -1,4 +1,4 @@
-module bufbreaks
+module github.com/tgross/bufbreaks
 
 go 1.16
 
