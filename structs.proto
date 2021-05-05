@@ -1,0 +1,14 @@
+syntax = "proto3";
+package hashicorp.nomad.plugins.drivers.proto;
+option go_package = "main";
+
+import "google/protobuf/timestamp.proto";
+
+message TaskStatsResponse {
+    TaskStats stats = 1;
+}
+
+message TaskStats {
+    string id = 1;
+    google.protobuf.Timestamp timestamp = 2;
+}
