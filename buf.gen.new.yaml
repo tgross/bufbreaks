@@ -1,0 +1,6 @@
+version: v1beta1
+
+plugins:
+  - name: go-new
+    out: .
+    opt: paths=source_relative
